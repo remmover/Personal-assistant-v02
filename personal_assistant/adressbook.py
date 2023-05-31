@@ -200,7 +200,7 @@ class AddressBook(UserDict):
             pickle.dump(self.data, f)
 
     @staticmethod
-    def load_from_bin(path="addressbook.bin"):
+    def load_from_bin(path="AddressBook.bin"):
         try:
             with open(path, "rb") as f:
                 return pickle.load(f)

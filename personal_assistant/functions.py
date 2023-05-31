@@ -7,12 +7,12 @@ from dec import input_error
 
 
 def hello():
-    with open('C:\Mein\Projects\poetry_Docker\personal_assistant\hello.txt', 'rb') as fh:
+    with open('personal_assistant/hello.txt', 'rb') as fh:
         text = fh.read().decode('utf-8')
     return text
 
 def help():
-    with open('C:\Mein\Projects\poetry_Docker\personal_assistant\help.txt', 'rb') as fh:
+    with open('personal_assistant/help.txt', 'rb') as fh:
         text = fh.read().decode('utf-8')
     return text
 

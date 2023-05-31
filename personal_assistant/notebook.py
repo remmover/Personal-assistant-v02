@@ -108,7 +108,7 @@ class Notebook(UserDict):
             pickle.dump(self, f)
 
     @staticmethod
-    def load_from_notebin(path="notebook.bin"):
+    def load_from_notebin(path="Notebook.bin"):
         try:
             with open(path, "rb") as f:
                 return pickle.load(f)
