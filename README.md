@@ -1,6 +1,6 @@
-# poetry_Docker
+# personal assistant
 
-Added Abstract class
+Added VE poetry 
 
 Instructions for installing a personal assistant with a command line interface:
 
